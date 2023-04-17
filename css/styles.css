@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: MarshChoc;
+  src: url("fonts/MarshmallowsAndChocolate.otf");
+}
+
+@font-face {
+  font-family: MontyMed;
+  src: url("fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: MinionPro;
+  src: url("fonts/MinionPro-Regular.otf");
+}
+
+@font-face {
+  font-family: MontyLight;
+  src: url("fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: Montyreg;
+  src: url("fonts/Montserrat-Regular.ttf");
+}
+
+.home{
+  padding-top: 100px;
+  height: 100%;
+}
+
+nav{
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+}
+
+nav .name{
+  font-family: MarshChoc;
+  font-size: 30px;
+  color: #C38D94;
+  padding-left: 50px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav .links{
+  height: 100%;
+  width: 45%;
+  font-family: MontyMed;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #C38D94;
+}
+
+nav .links a{
+  color: #C38D94;
+  text-decoration: none;
+}
+
+.heroHolder{
+  height: 100%;
+  width: 100%;
+  padding: 90px 40px 40px 40px;
+  background-image: linear-gradient(rgba(86, 86, 118, .75), rgba(86, 86, 118, .75)), url("../images/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.heroHolder h1{
+  width: 600px;
+  height: 300px;
+  padding-right: 75px;
+  color: #C38D94;
+  margin-top: 150px;
+  margin-left: 700px;
+  font-size: 60px;
+  font-family: MontyLight;
+  text-align: right;
+}
+
+.heroHolder .bold{
+  font-family: MarshChoc;
+}
+
+.about{
+  width: 100%;
+  height: 850px;
+  padding: 50px 50px 50px 50px;
+}
+
+.aboutWords{
+  height: 75%;
+  background-color: #C38D94;
+  color: white;
+  font-family: MinionPro;
+}
+.aboutWords .aboutTitle{
+  margin: 0 auto;
+  padding-top: 156px;
+  font-family: MontyMed;
+  font-size: 30px;
+  width: 100px;
+}
+
+.aboutWords .aboutAbout{
+  margin: 0 auto;
+  padding-top: 52px;
+  height: 209px;
+  width: 606px;
+  line-height: 2;
+  font-size: 16px;
+}
+
+.aboutPics{
+  height: 25%;
+  background-color: #CC9EA4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.aboutPics img{
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+}
+
+.aboutPics .chef1Desc{
+  margin: 0 auto;
+  width: 257px;
+  color: white;
+  font-family: MontyReg;
+  font-size: 22px;
+}
+
+.chef{
+  font-family: MarshChoc;
+  font-size: 25px;
+}
+
+.aboutPics .chef1Desc .lorem{
+  font-family: MinionPro;
+  font-size: 16px;
+}
+
+.aboutPics .chef2Desc{
+  margin: 0 auto;
+  width: 257px;
+  color: white;
+  font-family: MontyReg;
+  font-size: 22px;
+}
+
+.aboutPics .chef2Desc .lorem{
+  font-family: MinionPro;
+  font-size: 16px;
+}
+
+.products{
+  height: 950px;
+  padding: 0px 50px 50px 50px;
+}
+
+.productPics{
+  height: 85%;
+  background-color: #A76571;
+}
+
+.productPics p{
+  padding-top: 150px;
+  color: white;
+  font-family: MontyMed;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.topLayer{
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bottomLayer{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+
+.cookie{
+  width: 204px;
+  height: 204px;
+  border-radius: 50%;
+  background-image: linear-gradient(rgba(167, 101, 113, .5),rgba(167, 101, 113, .5)), url("../images/cookies.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cream{
+  width: 204px;
+  height: 204px;
+  border-radius: 50%;
+  background-image: linear-gradient(rgba(167, 101, 113, .5),rgba(167, 101, 113, .5)), url("../images/cookies-cream.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.brownie{
+  width: 204px;
+  height: 204px;
+  border-radius: 50%;
+  background-image: linear-gradient(rgba(167, 101, 113, .6),rgba(167, 101, 113, .6)), url("../images/brownies.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.productWords{
+  height: 25%;
+  background-color: #C38D94;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.productWords p{
+  color: white;
+  height: 140px;
+  width: 225px;
+  font-style: italic;
+  line-height: 2;
+  text-align: center;
+}
+
+.contact{
+  padding: 80px 0px 0px 0px;
+  height: 100%;
+  background-color: #565676;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 125px;
+}
+.form{
+  font-family: MinionPro;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 800px;
+  align-items: center;
+}
+
+.form .conHead{
+  padding-left: 43%;
+  padding-bottom: 40px;
+  width: 50%;
+  color: white;
+  font-family: MontyMed;
+  align-items: center;
+  font-size: 30px;
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+input{
+  width: 100%;
+  height: 55px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  font-size: 16px;
+  outline: white;
+  border: 2px solid white;
+  background-color: #565676;
+}
+
+input:focus{
+  outline: white !important;
+  border: 2px solid white;
+}
+
+.submit{
+  padding-left: 35%;
+}
+
+.submit input{
+  color: white;
+  text-transform: lowercase;
+  font-family: MinionPro;
+  font-size: 18px;
+  width: 246px;
+  height: 55px;
+  border-radius: 50px;
+  background-color: #565676;
+}
